@@ -1,0 +1,8 @@
+
+<suite name="Login Suite">
+  <test name="Login Test">
+    <classes>
+      <class name="com.visagan.login.LoginTest"/>
+    </classes>
+  </test>
+</suite>
