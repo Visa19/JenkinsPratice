@@ -31,7 +31,7 @@ public class LoginTest {
         WebElement loginButton = driver.findElement(By.id("submit"));
         loginButton.click();
 
-        // Validation: Check for "Log out" button to confirm login success
+     
         WebElement logoutButton = driver.findElement(By.xpath("//a[text()='Log out']"));
         Assert.assertTrue(logoutButton.isDisplayed(), "Logout button should be visible after login.");
     }
