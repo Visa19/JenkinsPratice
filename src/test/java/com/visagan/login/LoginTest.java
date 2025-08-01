@@ -15,7 +15,7 @@ public class LoginTest {
     public void setup() {
         System.setProperty("webdriver.chrome.driver", "C:\\Selanium_Google Drive\\chromedriver.exe");
         driver = new ChromeDriver();
-        driver.manage().window().maximize();
+       // driver.manage().window().maximize();
     }
 
     @Test
