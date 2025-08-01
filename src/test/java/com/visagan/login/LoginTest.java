@@ -26,7 +26,7 @@ public class LoginTest {
         name.sendKeys("student");
 
         WebElement password = driver.findElement(By.name("password"));
-        password.sendKeys("Password123");
+        password.sendKeys("Password1234");
 
         WebElement loginButton = driver.findElement(By.id("submit"));
         loginButton.click();
