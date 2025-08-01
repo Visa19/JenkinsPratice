@@ -1,6 +1,6 @@
 
 <suite name="Login Suite">
-  <test name="Login Test">
+  <test name="Login Test - Jenkins">
     <classes>
       <class name="com.visagan.login.LoginTest"/>
     </classes>
